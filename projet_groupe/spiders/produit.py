@@ -66,7 +66,6 @@ class ProduitSpider(scrapy.Spider):
                     "ref_EAN": ref_EAN,
                     "etoile": etoile,
                     "etoile_qualite_prix": etoile_qualite_prix
-                    
                 }
         
         links = [link for link in response.css("a::attr(href)").getall() if link.startswith("/")]
