@@ -74,7 +74,3 @@ class ProduitSpider(scrapy.Spider):
 
 
 # scrapy crawl produit -O produit.csv
-
-
-
-        
